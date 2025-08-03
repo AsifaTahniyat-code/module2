@@ -1,0 +1,70 @@
+/* Basic typography and body style */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f2f2f2;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Header with text decoration */
+.decorated-title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #222;
+    text-decoration: underline wavy #ff6f61;
+}
+
+/* Typography example with uppercase transform */
+.uppercase {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #0066cc;
+    margin-bottom: 10px;
+}
+
+/* Text indent example */
+.indent {
+    text-indent: 50px;
+    font-size: 1.1rem;
+}
+
+/* Text shadow effect */
+.shadow-text {
+    font-size: 2rem;
+    color: #444;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Text decoration examples */
+.underline {
+    text-decoration: underline;
+}
+
+.overline {
+    text-decoration: overline;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+/* Text transform example: capitalize */
+.capitalize {
+    text-transform: capitalize;
+}
+
+/* Box shadow example */
+.box-shadow-example {
+    margin-top: 30px;
+}
+
+.shadow-box {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    font-size: 1rem;
+    color: #444;
+}
