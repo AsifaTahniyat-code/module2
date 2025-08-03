@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model & Positioning</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Lesson 11 & 12: Box Model, Float & Positioning</h1>
+    </header>
+
+    <!-- Lesson 11: Box Model -->
+    <section class="box-model">
+        <h2>Box Model Example</h2>
+        <div class="box">
+            <p>This box shows margin, border, and padding effects.</p>
+        </div>
+    </section>
+
+    <!-- Float Example -->
+    <section class="float-example">
+        <h2>Float Example</h2>
+        <div class="float-box left">Left Float</div>
+        <div class="float-box right">Right Float</div>
+        <p class="clear">
+            Floated elements align left/right, and normal content flows around them.
+            Use <code>clear</code> to reset flow after floats.
+        </p>
+    </section>
+
+    <!-- Lesson 12: Positioning -->
+    <section class="positioning">
+        <h2>Positioning Examples</h2>
+        <div class="relative-box">
+            Relative Box
+            <div class="absolute-box">Absolute inside Relative</div>
+        </div>
+
+        <div class="fixed-box">Fixed Box</div>
+
+        <div class="sticky-container">
+            <p>Scroll to see sticky box in action.</p>
+            <div class="sticky-box">Sticky Box</div>
+            <p style="height: 300px;">Extra space to scroll...</p>
+        </div>
+    </section>
+
+    <!-- Opacity Example -->
+    <section class="opacity">
+        <h2>Opacity Example</h2>
+        <div class="opacity-box">50% Opacity</div>
+    </section>
+
+</body>
+</html>
